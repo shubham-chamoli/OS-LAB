@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-struct Process {
+struct Process{
     int pid, at, bt;
     int ct, wt, tat, rt, start_time;
     int bt_remaining;
