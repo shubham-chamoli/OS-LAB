@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main(){
     int n, m, i, j;
     printf("Enter number of processes: ");
     scanf("%d", &n);
