@@ -3,7 +3,7 @@
 struct Process {
     int pid,at,bt,rt,ct,tat,wt;
 };
-int main() {
+int main(){
     int n;
     printf("Number of processes : ");
     scanf("%d", &n);
