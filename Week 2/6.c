@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int main() {
+int main(){
     FILE *f1 = fopen("a.txt", "w");
     fprintf(f1, "Helloooo\nJATIN\n");
     fclose(f1);
