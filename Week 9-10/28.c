@@ -13,7 +13,7 @@ struct block {
     int current;
     int next;
 };
-int main(void) {
+int main(void){
     int n;
     printf("Enter number of files: ");
     scanf("%d", &n);
