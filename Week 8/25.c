@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main(){
     int b, p;
     scanf("%d", &b);
     int blocks[b];
