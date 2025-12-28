@@ -41,8 +41,7 @@ void searchLRUPage(struct PageTable PT[], int frame[], int no_of_frames, int *LR
         }
     }
 }
-int main()
-{
+int main(){
     int i, n, no_of_frames, page_fault = 0, current = 0;
     bool flag = false;
     printf("Enter the no. of pages: ");
