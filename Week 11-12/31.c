@@ -4,7 +4,7 @@
 #define HIGH 199
 #define MAXQ 100
 int absval(int x){ return x < 0 ? -x : x; }
-int main(){
+int main() {
     int queue[MAXQ], q_size, head;
     printf("Input no of disk locations: ");
     if(scanf("%d", &q_size) != 1 || q_size <= 0 || q_size >= MAXQ-5){
