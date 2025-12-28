@@ -4,8 +4,7 @@
 #include <unistd.h>
 #define N 3
 sem_t chopstick[N];
-void *philosopher(void *num)
-{
+void *philosopher(void *num){
     int id = *(int *)num;
     while (1)
     {
